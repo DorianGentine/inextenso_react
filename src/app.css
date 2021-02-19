@@ -8,6 +8,7 @@
   display: grid;
   grid-template: auto / repeat(2, 1fr);
   column-gap: 20px;
+  row-gap: 20px;
 }
 
 .navbar{
@@ -74,4 +75,18 @@
   margin-right: 10px;
   background-position: center;
   background-size: cover;
+}
+
+/* Button */
+.my-button {
+  border: 1px solid green;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: .5s;
+}
+.my-button:hover{
+  background-color: green;
+  color: white;
 }
