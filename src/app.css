@@ -90,3 +90,23 @@
   background-color: green;
   color: white;
 }
+
+/* fizzbuzz */
+.fizzbuzz-grid{
+  display: grid;
+  grid-template: auto / repeat(5, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+}
+.fizzbuzz-grid p{
+  background-color: lightgreen;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  transition: .5s;
+}
+.fizzbuzz-grid p:hover{
+  background-color: green;
+  color: white;
+}

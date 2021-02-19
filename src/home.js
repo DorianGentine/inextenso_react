@@ -17,6 +17,10 @@ export default function Home() {
         <h2>Algo I</h2>
         <p>Custom Number Type Increment</p>
       </Link>
+      <Link to="/fizzbuzz" className="home-link">
+        <h2>Algo II</h2>
+        <p>FizzBuzz</p>
+      </Link>
     </div>
   );
 }

@@ -7,6 +7,7 @@ export default function Navbar() {
       <Link to="/level_1">Level 1</Link>
       <Link to="/level_2">Level 2</Link>
       <Link to="/number_type_increment">Number type increment</Link>
+      <Link to="/fizzbuzz">Fizz Buzz</Link>
     </div>
   );
 };
