@@ -1,0 +1,57 @@
+.container {
+  padding: 0 50px;
+  width: calc(100vw - 100px);
+  max-width: 1440px;
+  margin: 100px auto 0;
+}
+
+.navbar{
+  position: fixed;
+  height: 60px;
+  width: calc(100vw - 100px);
+  top: 0;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: green;
+  color: white;
+}
+.navbar a{
+  margin: 0 10px;
+}
+
+/* level 2 style */
+.my-input {
+  width: 80%;
+  border: 1px solid lightgreen;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.results-grid{
+  display: grid;
+  grid-template: auto / repeat(5, 1fr);
+  column-gap: 10px;
+  row-gap: 10px
+}
+
+.result-card {
+  background-color: lightgreen;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.result-card p{
+  margin: 0
+}
+
+.avatar{
+  height: 25px;
+  width: 25px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-position: center;
+  background-size: cover;
+}
